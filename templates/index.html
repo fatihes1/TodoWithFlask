@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div style ="margin-top : 60px" class = "container">
+        <h3>Todo List</h3>
+        <hr>
+        <form action="/add" method = "post">
+            <div class="form-group">
+                <label for="formGroupExampleInput">Todo Title</label>
+                <input style="margin-bottom:5px" type="text" class="form-control" name="title" id="formGroupExampleInput" placeholder="Enter todo...">
+                <button type="submit" class ="btn btn-success">Add</button>
+            </div>
+            <hr>
+        </form>
+        {% if todos == [] %}
+        <div class="alert alert-warning" role="alert">
+            <i class="fas fa-exclamation"></i> &nbsp; You do not have any task. You can add your first task using the add button at the top.
+        </div>
+        {% else %}
+        <table class="table table-striped table-dark">
+            <thead>
+                <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Todo Title</th>
+                <th scope="col">Todo Status</th>
+                <th scope="col">Update Status</th>
+                <th scope="col">Delete Todo</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for i in todos %}
+                <tr>
+                <th scope="row">{{i.id}}</th>
+                <td>{{i.title}}</td>
+                {% if i.complete  == False%}
+                <td><button style="margin-left:20px" class ="btn btn-danger"><i class="fas fa-user-times"></i></button></td>
+                {% else %}
+                <td><button style="margin-left:20px" class ="btn btn-success"><i class="fas fa-user-check"></i></button></td>
+                {% endif %}
+                <td style="text-align:left"><a style="margin-left:25px" href="/complete/{{i.id}}" class="btn btn-warning"><i class="fas fa-undo-alt"></i></a></td>
+                <td style="text-align:left"><a style="margin-left:25px" href="/delete/{{i.id}}" class="btn btn-light"><i class="fas fa-trash-alt"></i></a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        {% endif %}
+
+        
+    
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -20,13 +20,13 @@ It is a simple "To Do" project with Flask Freamwork, Bootstrap 4, SQLAlchemy, Ob
   <li> The view when we have no task.<hr>
       <img src="images/1.png">
   </li>
-  <li> The view when we only have one mission and it hasn't been done yet<hr>
+  <li> The view when we only have one task and it hasn't been done yet.<hr>
       <img src="images/2.png">
   </li>
-  <li> The view when we have no task.<hr>
+  <li> The view when we have four tasks and two of them has already done.<hr>
       <img src="images/3.png">
   </li>
-  <li> The view when we have no task.<hr>
+  <li> The view when the task with id 2 is deleted.<hr>
       <img src="images/4.png">
   </li>
   

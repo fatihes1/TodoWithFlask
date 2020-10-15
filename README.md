@@ -10,3 +10,11 @@ It is a simple "To Do" project with Flask Freamwork, Bootstrap 4, SQLAlchemy, Ob
   <li> For SQLAlchemy documentation, click <a href="https://docs.sqlalchemy.org/en/13/">here</a>.</li>
   <li> For What is the ORM, click <a href="https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping">here</a>.</li>
   <li> For SQLite documentation, click <a href="https://www.sqlite.org/docs.html">here</a>.</li>
+</ul>
+<hr>
+<h2> What is ToDoList? </h2>
+<p> ToDoList is software in the category of Task Management, Project Management, Productivity, “Getting Things Done” (GTD), Scheduling, and Collaboration. We have a lot of choices to help us keep track of daily obligations. A simple list on paper of things “To Do” is enough for some people.If you want to see an advanced Todolis,click click <a href="https://trello.com/">here</a>. </p>
+<hr>
+<h2> Screenshots </h2>
+<ul>
+  <li> The view when we have no task. <br> <img src="https://imgyukle.com/i/50Rql8" alt="The view when we have no task."> </li>

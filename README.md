@@ -17,4 +17,5 @@ It is a simple "To Do" project with Flask Freamwork, Bootstrap 4, SQLAlchemy, Ob
 <hr>
 <h2> Screenshots </h2>
 <ul>
-  <li> The view when we have no task. <br> <img src="https://imgyukle.com/i/50Rql8" alt="The view when we have no task."> </li>
+  <li> The view when we have no task. <br>(https://user-images.githubusercontent.com/54971670/96148247-bfff3900-0f10-11eb-9c76-6e47104d97cf.png)
+ </li>

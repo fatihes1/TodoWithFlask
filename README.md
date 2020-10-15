@@ -14,19 +14,19 @@ It is a simple "To Do" project with Flask Freamwork, Bootstrap 4, SQLAlchemy, Ob
 <hr>
 <h2> What is ToDoList? </h2>
 <p> ToDoList is software in the category of Task Management, Project Management, Productivity, “Getting Things Done” (GTD), Scheduling, and Collaboration. We have a lot of choices to help us keep track of daily obligations. A simple list on paper of things “To Do” is enough for some people.If you want to see an advanced Todolis,click click <a href="https://trello.com/">here</a>. </p>
-<hr>
+
 <h2> Screenshots </h2>
 <ul>
   <li> The view when we have no task.<hr>
       <img src="images/1.png">
   </li>
-  <li> The view when we have no task.
+  <li> The view when we only have one mission and it hasn't been done yet<hr>
       <img src="images/2.png">
   </li>
-  <li> The view when we have no task.
+  <li> The view when we have no task.<hr>
       <img src="images/3.png">
   </li>
-  <li> The view when we have no task.
+  <li> The view when we have no task.<hr>
       <img src="images/4.png">
   </li>
   

@@ -17,5 +17,20 @@ It is a simple "To Do" project with Flask Freamwork, Bootstrap 4, SQLAlchemy, Ob
 <hr>
 <h2> Screenshots </h2>
 <ul>
-  <li> The view when we have no task. <br>
- </li>
+  <li> The view when we have no task.<hr>
+      <img src="images/1.png">
+  </li>
+  <li> The view when we have no task.
+      <img src="images/2.png">
+  </li>
+  <li> The view when we have no task.
+      <img src="images/3.png">
+  </li>
+  <li> The view when we have no task.
+      <img src="images/4.png">
+  </li>
+  
+  
+  
+  
+ </ul>

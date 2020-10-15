@@ -1,7 +1,7 @@
 # TodoWithFlask
 
 <h2> Information </h2>
-It is a simple "To Do" project with Flask Freamwork, Bootstrap 4, SQLAlchemy, Object Relational Mapping (ORM) and SQLite
+It is a simple "To Do" project with Flask Framework, Bootstrap 4, SQLAlchemy, Object Relational Mapping (ORM) and SQLite
 
 <h2> Documentation </h2>
 <ul>
